@@ -1,0 +1,24 @@
+meta {
+  name: put student id
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{BACKEND_URL}}/api/students/544ca083-2022-4f89-a967-1fe80298cb3f
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "student_names": "Donald Contreras",
+    "phone": "9208625450",
+    "math": "76",
+    "physics": "100",
+    "chemistry": "0",
+    "grade": "B+",
+    "comment": "Good Pursuance",
+    "student_address": "478 Mooney Park, New Valerie, VI 28836"
+  }
+}
